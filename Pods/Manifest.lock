@@ -1,0 +1,62 @@
+PODS:
+  - MaterialComponents/AnimationTiming (78.0.0)
+  - MaterialComponents/Buttons (78.0.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Ink (78.0.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (78.0.0)
+  - MaterialComponents/private/Application (78.0.0)
+  - MaterialComponents/private/Math (78.0.0)
+  - MaterialComponents/ShadowElevations (78.0.0)
+  - MaterialComponents/ShadowLayer (78.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (78.0.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/TextFields (78.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (78.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
+  - RealmSwift (3.13.1):
+    - Realm (= 3.13.1)
+
+DEPENDENCIES:
+  - MaterialComponents/Buttons
+  - MaterialComponents/TextFields
+  - RealmSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  MaterialComponents: f50582fcff415a2459e62a29310fb3ec70a70234
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
+  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
+
+PODFILE CHECKSUM: c99945656fcd4f24c732227e79f783bbe5fa3639
+
+COCOAPODS: 1.5.3
